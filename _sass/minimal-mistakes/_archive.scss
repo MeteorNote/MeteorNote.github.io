@@ -49,16 +49,18 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  position: relative;
 
   a[rel="permalink"]::before {
     content: '';
     position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 255, 0.2); /* 반투명 파란색 배경 */
+    left: 10;
+    top: 10;
+    right: 10;
+    bottom: 10;
+    background-color: rgba(0, 13, 255, 0.096); /* 반투명 파란색 배경 */
     z-index: -1; /* 텍스트 위에 가상 요소가 오지 않도록 뒤로 보내기 */
+    border-radius: 8px; /* 모서리를 둥글게, 값을 조정할 수 있음 */
   }
 
   a + a {
