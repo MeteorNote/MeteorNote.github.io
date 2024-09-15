@@ -36,7 +36,7 @@
   padding-bottom: 0.5em;
   font-size: $type-size-5;
   color: $muted-text-color;
-  border-bottom: 5px solid $border-color;
+  border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -63,6 +63,15 @@
     opacity: 0.5;
   }
 }
+.archive__item-title a {
+  text-decoration: none; /* 기본 밑줄을 제거 */
+  color: #ff6600; /* 하이퍼링크 색상을 주황색으로 변경 */
+  background-color: #f0f0f0; /* 하이퍼링크 배경색 추가 */
+  padding: 2px 4px; /* 약간의 패딩 추가 */
+  border-radius: 4px; /* 모서리를 둥글게 */
+}
+
+
 
 /* remove border*/
 .page__content {
