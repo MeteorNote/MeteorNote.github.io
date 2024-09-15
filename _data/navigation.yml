@@ -10,7 +10,7 @@ main:
 docs:
   - title: "머신러닝"
     children:
-      - title: "개념"
+      - title: "개념test"
         url: /machine_learning_theory/
       - title: "활용"
         url: /machine_learning_use/
