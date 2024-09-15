@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Bandee IT Tech Blog"
+title                    : "Meteor IT Tech Blog"
 title_separator          : "-"
 subtitle                 : "" # site tagline that appears below site title in masthead
-name                     : "Bandee"
-description              : "Bandee의 IT Tech Blog입니다"
-url                      : "https://l-bandee.github.io/"
+name                     : "Meteor"
+description              : "Meteor의 IT Tech Blog입니다"
+url                      : "https://MeteorNote.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "L-Bandee-github" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "MeteorNote-github" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "L-Bandee"
+  name             : "Meteor"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Bandee의 IT Tech Blog입니다"
+  bio              : "Meteor의 IT Tech Blog입니다"
   location         : "South Korea"
   email            :
   links:
@@ -115,7 +115,7 @@ author:
       url: "mailto:donhakle@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://l-bandee.github.io"
+      url: "https://MeteorNote.github.io"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
@@ -124,7 +124,7 @@ author:
     #   url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/L-Bandee"
+      url: "https://github.com/MeteorNote"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
@@ -140,7 +140,7 @@ footer:
     #   url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/L-Bandee"
+      url: "https://github.com/MeteorNote"
     #- label: "GitLab"
     #  icon: "fab fa-fw fa-gitlab"
     #   url:
