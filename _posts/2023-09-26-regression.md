@@ -6,8 +6,6 @@ toc_sticky: true
 toc_label: 목차
 author_profile: false # 프로필 안보이게 하기
 use_math: true # 수학 수식
-sidebar:
-    nav: "counts" # 왼쪽 사이드 바
 ---
 
 
