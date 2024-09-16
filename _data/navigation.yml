@@ -5,6 +5,8 @@ main:
     url: /categories/
   - title: "Tag"
     url: /tags/
+  - title: "By Year" # 연도별 구분
+    url: /year-archive/ # grid 형식 적용 : /year-archive-grid/
   - title: "Search" # 검색
     url: /search/
 docs:
