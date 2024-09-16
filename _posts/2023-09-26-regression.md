@@ -4,6 +4,7 @@ layout: single
 toc: true
 toc_sticky: true
 toc_label: 목차
+author_profile: false # 프로필 안보이게 하기
 ---
 
 
