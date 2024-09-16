@@ -10,18 +10,25 @@ main:
   - title: "Search" # 검색
     url: /search/
 docs:
-  - title: "머신러닝"
+  - title: "대목차1"
     children:
-      - title: "개념test"
-        url: /machine_learning_theory/
-      - title: "활용"
-        url: /machine_learning_use/
-  - title: "딥러닝"
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+  - title: "대목차2"
     children:
-      - title: "개념"
-        url: /deep_learning_theory/
-      - title: "활용"
-        url: /deep_learning_use/
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+counts:
+  - title: "카테고리"
+    use: true
+  - title: "태그"
+    use: true
+
+
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -32,3 +39,18 @@ docs:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+#  counts:
+#  - title: "머신러닝"
+#    children:
+#      - title: "개념test"
+#        url: /machine_learning_theory/
+#      - title: "활용"
+#        url: /machine_learning_use/
+#  - title: "딥러닝"
+#    children:
+#      - title: "개념"
+#        url: /deep_learning_theory/
+#      - title: "활용"
+#        url: /deep_learning_use/
