@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Meteor"
   avatar           : "/images/meteor.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Meteor의 IT Tech Blog입니다"
+  bio              : "Lee KyuDon의 IT Tech Blog입니다. <br> Lee Kyudon, 1996"
   location         : "South Korea"
   email            :
   links:
