@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 
-<h2 class="archive__subtitle" style="color: #E2495B">Introduction</h2>
+<h1 class="archive__subtitle" style="color: #E2495B">Introduction</h1>
 <h3 style="font-size: 18px"> &#9989; Tech </h2>
 <p style="line-height: 0.5; font-size: 14px"> &#8231; Middleware : Apache, Nginx, Wildfly, Redis, k8s, Docker </p>
 <p style="line-height: 0.5; font-size: 14px"> &#8231; CI/CD : Jenkins, Gitlab, Github, SVN, Nexus </p>
@@ -20,7 +20,7 @@ layout: archive
 <p style="line-height: 0.5; font-size: 14px"> &#8231; 네트워크관리사2급, SQLD </p>
 
 <br>
-<h2 class="archive__subtitle" style="color: #E2495B">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
+<h1 class="archive__subtitle" style="color: #E2495B">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h1>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
