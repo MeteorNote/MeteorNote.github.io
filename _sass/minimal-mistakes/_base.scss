@@ -126,6 +126,7 @@ blockquote {
 /* links */
 
 a {
+  font-size: 18px; /* 링크 폰트 크기*/
   &:focus {
     @extend %tab-focus;
   }
