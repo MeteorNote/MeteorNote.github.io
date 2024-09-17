@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Meteor"
   avatar           : "/images/meteor.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "IT Tech Blog입니다. <br> Lee Kyudon, 1996 <br> Devops Engineer (2022 ~ )"
+  bio              : "IT Tech Blog입니다. <br> Lee Kyudon, 1996 <br> 경력 <br> &#8231;Devops Engineer (2022 ~ )"
   location         : "South Korea"
   email            :
   links:
