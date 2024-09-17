@@ -20,7 +20,8 @@ title                    : "Meteor IT Tech Blog"
 title_separator          : "-"
 subtitle                 : "" # site tagline that appears below site title in masthead
 name                     : "Meteor"
-description              : "Meteor의 IT Tech Blog입니다 <br> Lee KyuDon, 1996"
+description              : "Lee KyuDon의 IT Tech Blog입니다.
+Lee KyuDon, 1996"
 url                      : "https://MeteorNote.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
