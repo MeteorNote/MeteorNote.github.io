@@ -4,15 +4,19 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">Tech</h3>
-<p> 자격증 </p>
+<h2 class="archive__subtitle">Introduction</h2>
+<p> Tech </p><br>
+<p> CI/CD : Jenkins, Gitlab, Github, SVN </p><br>
+<p> Server : Linux(CentOS, Rocky), Kubernetes, Docker </p><br>
+<p> Certification </p>
 <img src="/images/home/aws-certified-data-analytics-specialty.png">
 <img src="/images/home/aws-certified-solutions-architect-associate.png">
 <img src="/images/home/aws-certified-solutions-architect-professional.png">
 <img src="/images/home/cka-certified-kubernetes-administrator.png">
-<img src="/images/home/ckad-certified-kubernetes-application-developer.png">
+<img src="/images/home/ckad-certified-kubernetes-application-developer.png"><br>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
