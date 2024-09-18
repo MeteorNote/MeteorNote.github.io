@@ -28,4 +28,5 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
+_posts/00. sample/*
 _posts/SecretNote/*
