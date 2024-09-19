@@ -1,7 +1,9 @@
 https://meteornote.github.io
 
 ## favicon License
-<a href="https://www.flaticon.com/kr/free-icons/" title="유성 아이콘">유성 아이콘 제작자: xnimrodx - Flaticon</a>
+<a href="https://www.flaticon.com/kr/free-icon/meteor_1434067" title="유성 아이콘">유성 아이콘</a>
+<a href="https://www.flaticon.com/kr/authors/xnimrodx" title="유성 아이콘">유성 아이콘 제작자: xnimrodx - Flaticon</a>
+
 해당 blog에 사용된 유성(meteor)의 favicon, icon은 xnimrodx의 자료를 사용해 디자인되었습니다
 
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
