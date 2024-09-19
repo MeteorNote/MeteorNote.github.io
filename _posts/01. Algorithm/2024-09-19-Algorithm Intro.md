@@ -1,7 +1,7 @@
 ---
-title: "Server 정리"
+title: "Algorithm 정리"
 layout: single
-categories: Server
+categories: Algorithm
 tag: [intro]
 toc: true # 글 내의 목차 설정
 toc_sticky: true
