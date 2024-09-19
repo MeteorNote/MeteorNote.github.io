@@ -10,7 +10,6 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  background-color: #e2e2e2; // header background-color
 
   &__inner-wrap {
     @include clearfix;
@@ -32,7 +31,6 @@
 
     nav {
       z-index: 10;
-      background-color: #e2e2e2; // header background-color
     }
 
     a {
