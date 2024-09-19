@@ -32,6 +32,7 @@
 
     nav {
       z-index: 10;
+      background-color: #e2e2e2; // header background-color
     }
 
     a {
@@ -65,7 +66,6 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-  background-color: #e2e2e2; // header background-color
 
   .site-nav {
     margin-left: 0;
