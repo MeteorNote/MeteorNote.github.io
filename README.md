@@ -1,6 +1,7 @@
+## 블로그 link
 https://meteornote.github.io
 
-## favicon License
+## favicon & icon License
 <a href="https://www.flaticon.com/kr/free-icon/meteor_1434067" title="유성 아이콘">유성 아이콘</a><br>
 <a href="https://www.flaticon.com/kr/authors/xnimrodx" title="유성 아이콘">유성 아이콘 제작자: xnimrodx - Flaticon</a>
 
@@ -280,3 +281,17 @@ Pure Liquid Jekyll Table of Contents is distributed under the terms of the [MIT 
 Minimal Mistakes incorporates [Lunr](http://lunrjs.com),
 Copyright (c) 2018 Oliver Nightingale.
 Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+
+
+## 블로그 운영 방법
+1. _posts 폴더 하위에 markdown 형태로 블로그 본문문서를 관리한다.
+2. _posts 대분류
+  1) 01. Algorithm
+  2) 02. DataScience
+  3) 03. Dev
+  4) 04. DevOps
+  5) 05. Cloud & Server
+3. 옵시디언 vault path : _posts
+   - markdown 관리 및 그래프, 마인드맵 활용
+   - github plugin은 sync기능이 주요이기 때문에 활용 안함
