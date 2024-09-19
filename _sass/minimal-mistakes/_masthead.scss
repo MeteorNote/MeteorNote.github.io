@@ -25,7 +25,6 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
-    background-color: #e2e2e2; // header background-color
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -66,6 +65,7 @@
   margin-right: 0;
   width: 100%;
   clear: both;
+  background-color: #e2e2e2; // header background-color
 
   .site-nav {
     margin-left: 0;
