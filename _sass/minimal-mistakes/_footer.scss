@@ -49,11 +49,6 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
-  a {
-    padding-right: 10px;
-    font-size: $type-size-6; // footer 피드 깃허브 font 사이즈
-    font-weight: bold;
-  }
 }
 
 .page__footer-follow {
