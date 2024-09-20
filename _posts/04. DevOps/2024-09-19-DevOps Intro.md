@@ -85,4 +85,6 @@ use_math: true # 수학 수식
   </style>
 </head>
 
-test
+## DevOps Category 관리 방법
+1. 직무 수행 중 필요한 업무지식 정리
+2. 업무 외 DevOps 관련 새로운 지식 정리
