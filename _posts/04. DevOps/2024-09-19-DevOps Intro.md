@@ -1,5 +1,5 @@
 ---
-title: "DevOps 정리"
+title: "DevOps Category Introduction"
 layout: single
 categories: DevOps
 tag: [intro]

@@ -1,5 +1,5 @@
 ---
-title: "Algorithm 정리"
+title: "Algorithm Category Introduction"
 layout: single
 categories: Algorithm
 tag: [intro]

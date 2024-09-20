@@ -1,5 +1,5 @@
 ---
-title: "Cloud & Server 정리"
+title: "Cloud & Server Category Introduction"
 layout: single
 categories: Cloud&Server
 tag: [intro]

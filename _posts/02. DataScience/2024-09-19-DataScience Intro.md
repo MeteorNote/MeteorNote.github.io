@@ -1,5 +1,5 @@
 ---
-title: "Data Science 정리"
+title: "Data Science Category Introduction"
 layout: single
 categories: DataScience
 tag: [intro]
