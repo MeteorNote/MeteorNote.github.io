@@ -1,5 +1,5 @@
 ---
-title: "DevOps Category Introduction"
+title: "DevOps Category Intro"
 layout: single
 categories: DevOps
 tag: [intro]

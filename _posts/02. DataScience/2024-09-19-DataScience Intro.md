@@ -1,5 +1,5 @@
 ---
-title: "Data Science Category Introduction"
+title: "Data Science Category Intro"
 layout: single
 categories: DataScience
 tag: [intro]

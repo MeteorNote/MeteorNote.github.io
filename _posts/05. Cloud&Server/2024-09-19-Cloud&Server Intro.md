@@ -1,5 +1,5 @@
 ---
-title: "Cloud & Server Category Introduction"
+title: "Cloud & Server Category Intro"
 layout: single
 categories: Cloud&Server
 tag: [intro]

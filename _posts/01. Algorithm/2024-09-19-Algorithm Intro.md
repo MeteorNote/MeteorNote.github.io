@@ -1,5 +1,5 @@
 ---
-title: "Algorithm Category Introduction"
+title: "Algorithm Category Intro"
 layout: single
 categories: Algorithm
 tag: [intro]
