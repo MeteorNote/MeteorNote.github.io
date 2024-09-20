@@ -13,7 +13,6 @@ search: true # 검색 차단 유무
 use_math: true # 수학 수식
 ---
 
-
 <head>
   <style>
     table.dataframe {
@@ -85,3 +84,11 @@ use_math: true # 수학 수식
   </style>
 </head>
 
+<div class="notice--success">
+<h4> Algorithm Category 관리 방법 </h4>
+<ul>
+    <li> 코딩테스트를 주로 기록 </li>
+    <li> 코드 : 깃허브 블로그 post Algorithm 폴더 내 관리 </li>
+    <li> 코딩테스트 사이트 풀이 링크 + 게시글 markdown을 이용한 피드백 </li>
+</ul>
+</div>

@@ -85,3 +85,10 @@ use_math: true # 수학 수식
   </style>
 </head>
 
+<div class="notice--success">
+<h4> DataScience Category 관리 방법 </h4>
+<ul>
+    <li> 통계, 머신러닝, 딥러닝 등을 obsidian을 활용해 서로 간 관계로 정리 </li>
+    <li> 코드 : 구글 코랩 활용 </li>
+</ul>
+</div>

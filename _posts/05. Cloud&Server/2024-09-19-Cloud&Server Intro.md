@@ -85,3 +85,10 @@ use_math: true # 수학 수식
   </style>
 </head>
 
+<div class="notice--success">
+<h4> Cloud & Server Category 관리 방법 </h4>
+<ul>
+    <li> 직무 수행 중 필요한 업무지식 정리</li>
+    <li> 업무 외 DevOps 관련 새로운 지식 정리 </li>
+</ul>
+</div>
