@@ -36,7 +36,7 @@
   padding-bottom: 0.5em;
   font-size: $type-size-5;
   /* color: $muted-text-color; */
-  color: #DF6464;
+  color: #DF6464; /* category, tag 색상 변경 */
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
