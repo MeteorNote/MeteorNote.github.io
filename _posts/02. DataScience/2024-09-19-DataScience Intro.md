@@ -13,7 +13,6 @@ search: true # 검색 차단 유무
 use_math: true # 수학 수식
 ---
 
-
 <head>
   <style>
     table.dataframe {
