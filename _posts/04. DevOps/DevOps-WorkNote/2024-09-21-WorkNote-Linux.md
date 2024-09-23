@@ -1,5 +1,5 @@
 ---
-title: 자주 활용되는 Linux 명령어 활용
+title: 자주 활용되는 Linux 명령어 Note
 layout: single
 categories: DevOps
 tags:

@@ -1,5 +1,5 @@
 ---
-title: 자주 활용되는 Redis 활용
+title: 자주 활용되는 Redis Note
 layout: single
 categories: DevOps
 tags:
