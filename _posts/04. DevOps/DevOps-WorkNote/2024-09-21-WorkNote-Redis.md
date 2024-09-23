@@ -1,8 +1,9 @@
 ---
 title: 자주 활용되는 Redis 활용
 layout: single
-categories: WorkNote
+categories: DevOps
 tags:
+  - WorkNote
   - Redis
 toc: true
 toc_sticky: true

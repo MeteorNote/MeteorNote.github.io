@@ -1,9 +1,10 @@
 ---
-title: 자주 활용되는 Docker 활용
+title: 자주 활용되는 Linux 명령어 활용
 layout: single
-categories: WorkNote
+categories: DevOps
 tags:
-  - Docker
+  - WorkNote
+  - Linux
 toc: true
 toc_sticky: true
 toc_label: 목차
