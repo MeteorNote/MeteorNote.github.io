@@ -55,7 +55,7 @@ use_math: true
       padding: 0.8rem;
       margin-top: 0;
       margin-bottom: 15px;
-      font: 1rem 'Cascadia Code', Consolas, 'Courier New', monospace;
+      font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
       color: $code-text-color;
       border: solid 1px $border-color;
       border-radius: 0.3rem;
