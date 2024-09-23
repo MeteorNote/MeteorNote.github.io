@@ -14,3 +14,40 @@ sidebar:
 search: true
 use_math: true
 ---
+
+
+#### 1) tar
+```shell
+tar czvf [abc].tar abc
+```
+
+#### 2) link
+```shell
+ln -s /nas/path deployments
+```
+
+#### 3) find
+```shell
+
+```
+
+#### 4) lsof
+```shell
+
+```
+
+#### 5) awk
+```shell
+
+```
+
+#### 6) stty 화면조정
+```shell
+
+```
+
+
+#### 7) rsync
+```shell
+
+```
