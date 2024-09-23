@@ -156,19 +156,18 @@ kbd,
 samp,
 pre {
   font-family: 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace;
-  background-color: #2e2e2e; /* Obsidian 다크 테마 배경 */
-  color: #dcdcdd; /* 코드 텍스트 색상 */
-  border-radius: 4px; /* 둥근 모서리 */
-  padding: 2px 4px; /* 내부 여백 */
-  font-size: 0.9em; /* 크기 조정 */
+  background-color: #f5f5f5; /* 밝은 배경 */
+  color: #2d2d2d; /* 어두운 텍스트 */
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 0.9em;
 }
 
 pre {
-  padding: 8px 12px; /* 코드 블록 내부 여백 */
-  background-color: #2b2b2b; /* 코드 블록 배경 */
-  border: 1px solid #3e3e3e; /* 테두리 */
-  overflow: auto; /* 코드 블록에서 스크롤 가능하게 */
-}
+  padding: 8px 12px;
+  background-color: #f0f0f0; /* 코드 블록 배경 */
+  border: 1px solid #cccccc; /* 테두리
+
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
