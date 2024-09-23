@@ -155,8 +155,8 @@ docker rm [container]
 
 
 #### 7) docker-compose 파일 예시
-```shell
-
-
+```python
+import pandas
+x = 1
 
 ```
