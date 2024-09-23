@@ -16,8 +16,18 @@ $indent-var: 1.3em !default;
 $serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "consolas", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-/* $monospace: Monaco, Consolas, "Lucida Console", monospace !default;*/
-$monospace: 'Cascadia Code', Consolas, 'Courier New', monospace !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+/* 본문 code 스타일 type 설정부분이지만 $monospace변수 제거 후 base.scss에 아래와 같이 적용
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+  color: #d4d4d4; 
+  background-color: #1e1e1e;
+}
+*/
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
