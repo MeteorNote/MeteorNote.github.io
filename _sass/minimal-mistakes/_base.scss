@@ -155,7 +155,9 @@ code,
 kbd,
 samp,
 pre {
-  font-family: $monospace;
+  font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+  color: #d4d4d4; /* 텍스트 색상 */
+  background-color: #1e1e1e; /* 배경 색상 */
 }
 
 pre {
