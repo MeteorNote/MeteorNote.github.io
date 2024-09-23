@@ -148,7 +148,7 @@ button:focus {
   @extend %tab-focus;
 }
 
-/* code */
+/* 본문 코드 스타일 적용 */
 
 tt,
 code,
@@ -157,8 +157,26 @@ samp,
 pre {
   font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
   color: #d4d4d4; /* 텍스트 색상 */
-  background-color: #1e1e1e; /* 배경 색상 */
+  background-color: #252526; /* VS Code Dark+ 테마 배경 */
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 0.9em;
 }
+
+/* 코드 블록 */
+pre {
+  padding: 8px 12px;
+  background-color: #1e1e1e; /* 코드 블록 배경 */
+  border: 1px solid #333333; /* 테두리 */
+  overflow: auto;
+}
+
+/* 드래그 하이라이트 */
+::selection {
+  background-color: #ADD8E6; /* 하늘색 드래그 배경 */
+  color: #ffffff; /* 선택된 텍스트의 색상 */
+}
+
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
