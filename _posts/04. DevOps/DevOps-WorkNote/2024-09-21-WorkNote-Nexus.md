@@ -1,10 +1,10 @@
 ---
-title: 자주 활용되는 Gitlab Note
+title: 자주 활용되는 Nexus Note
 layout: single
 categories: DevOps
 tags:
+  - Nexus
   - WorkNote
-  - Gitlab
 toc: true
 toc_sticky: true
 toc_label: 목차
