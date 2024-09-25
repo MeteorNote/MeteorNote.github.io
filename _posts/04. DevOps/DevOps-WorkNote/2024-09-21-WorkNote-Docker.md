@@ -18,8 +18,8 @@ use_math: true
 
 
 
-## Docker 명령어와 활용
-### 1) install
+# Docker 명령어와 활용
+## 1) install
 최신 docker 버전 설치
 ```shell
 sudo yum remove docker \
@@ -43,7 +43,7 @@ sudo systemctl start docker
 ```
 
 
-### 2) docker-compose install
+## 2) docker-compose install
 docker-compose 버전 1.27.4 설치
 ```shell
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -57,14 +57,14 @@ sudo docker-compose -v
 ```
 
 
-### 3) 이미지 <--> tar
+## 3) 이미지 <--> tar
 ```shell
 sudo docker save -o [image_tag].tar image:tag
 sudo docker load -i [image_tag].tar
 ```
 
 
-### 4) docker root directory - daemon.json
+## 4) docker root directory - daemon.json
 ```shell
 vim /etc/docker/daemon.json
 
@@ -74,7 +74,7 @@ vim /etc/docker/daemon.json
 ```
 
 
-### 5) docker root directory - daemon docker.service
+## 5) docker root directory - daemon docker.service
 ```shell
 # Edit the docker.service file
 sudo vim /usr/lib/systemd/system/docker.service
@@ -84,14 +84,14 @@ ExecStart=/usr/bin/dockerd --data-root /data/docker/docker
 ```
 
 
-### 6) docker 프로세스 종료
+## 6) docker 프로세스 종료
 ```shell
 docker stop [container]
 docker rm [container]
 ```
 
 
-### 7) docker-compose 파일 예시
+## 7) docker-compose 파일 예시
 SVN 설치 시 예시
 ```python
 version: '3'
@@ -100,7 +100,7 @@ services:
     privileged: true
     restart: always
     image: svn:latest
-    container_name: svn-ai
+    container_name: svn
     ports:
       - "3356:3690"
     environment:
