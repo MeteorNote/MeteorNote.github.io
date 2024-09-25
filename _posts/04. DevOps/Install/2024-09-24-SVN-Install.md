@@ -14,4 +14,31 @@ sidebar:
 search: true
 use_math: true
 ---
-
+# SVN 활용
+## 1) install
+### Docker로 SVN 설치
+```Dockerfile
+FROM alpine:latest
+RUN apk update && apk add subversion
+CMD ["/usr/bin/svnserve","--daemon","--foreground","--root","/var/opt/svn"]
+EXPOSE 3690
+VOLUME ["/var/opt/svn"]
+```
+### Docker-compose
+```yaml
+version: '3'
+services:
+  svn:
+    privileged: true
+    restart: always
+    image: svn:latest
+    container_name: svn
+    ports:
+      - "3356:3690"
+    environment:
+      SET_PERMS: "false"
+      TZ: "Asia/Seoul"
+      mem_limit: 2G
+    volumes:
+      - "/data/svn/svn-[업무]/repositories:/var/opt/svn:rw"
+```
