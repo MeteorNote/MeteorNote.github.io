@@ -65,7 +65,7 @@ sudo docker load -i [image_tag].tar
 
 
 ## 4) docker root directory - daemon.json
-```shell
+```json
 vim /etc/docker/daemon.json
 
 {
@@ -93,7 +93,7 @@ docker rm [container]
 
 ## 7) docker-compose 파일 예시
 SVN 설치 시 예시
-```python
+```yaml
 version: '3'
 services:
   svn:
