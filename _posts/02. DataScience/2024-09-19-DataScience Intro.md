@@ -2,7 +2,7 @@
 title: "Data Science Category Intro"
 layout: single
 categories: DataScience
-tag: [intro]
+tag: [Intro]
 toc: true # 글 내의 목차 설정
 toc_sticky: true
 toc_label: 목차

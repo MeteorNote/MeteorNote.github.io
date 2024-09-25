@@ -4,7 +4,7 @@ layout: single
 categories: DevOps
 tags:
   - SVN
-  - install
+  - Install
 toc: true
 toc_sticky: true
 toc_label: 목차
