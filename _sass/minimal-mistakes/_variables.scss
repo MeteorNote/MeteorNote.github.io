@@ -14,9 +14,9 @@ $indent-var: 1.3em !default;
 
 /* system typefaces   Jua Dongle consolas*/
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Jua", "Roboto", "Segoe UI",
+$sans-serif: -apple-system, BlinkMacSystemFont, "나눔고딕", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$sans-head: -apple-system, BlinkMacSystemFont, "Jua" !default;
+$sans-head: -apple-system, BlinkMacSystemFont, "consolas" !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 /* 본문 code 스타일 type 설정부분이지만 $monospace변수 제거 후 base.scss에 아래와 같이 적용
 tt,
