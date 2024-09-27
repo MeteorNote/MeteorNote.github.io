@@ -11,6 +11,19 @@ layout: archive
   {% endif %}
 {% endfor %}
 
+<article class="archive__item">
+  {% if post.header.image %}
+    <a href="{{ post.url }}" class="archive__item-teaser">
+      <img src="{{ post.header.image }}" alt="{{ post.header.alt }}">
+    </a>
+  {% endif %}
+  <h2 class="archive__item-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {% if site.show_excerpts %}
+    <p class="archive__item-excerpt">{{ post.excerpt }}</p>
+  {% endif %}
+</article>
+
+
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}

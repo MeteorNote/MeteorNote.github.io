@@ -13,6 +13,9 @@ sidebar:
     nav: "counts"
 search: true
 use_math: true
+header:
+  image: /assets/images/meteor.jpg
+  alt: "이미지 설명"
 ---
 # SVN 활용
 ## 1) Install
