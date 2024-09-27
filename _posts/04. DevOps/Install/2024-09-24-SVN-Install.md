@@ -13,8 +13,6 @@ sidebar:
     nav: "counts"
 search: true
 use_math: true
-header:
-  image: /assets/images/meteor.png
 ---
 # SVN 활용
 ## 1) Install
