@@ -15,7 +15,7 @@ search: true
 use_math: true
 
 ---
-# SVN 활용
+# SVN install & backup
 ## 1) Install
 ### Dockerfile
 ```Dockerfile

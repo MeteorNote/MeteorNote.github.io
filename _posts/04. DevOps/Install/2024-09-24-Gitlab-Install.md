@@ -19,7 +19,7 @@ use_math: true
 ## 1) Gitlab install
 
 ```rb
-external_url 'http://172.29.224.202:10480'
+external_url 'http://[사용 IP : Port]'
 
 git_data_dirs({
 	"defualt" => {

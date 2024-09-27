@@ -24,26 +24,31 @@ use_math: true
 tar czvf [abc].tar abc
 ```
 <br>
+
 ## 2) link
 ```shell
 ln -s /nas/path deployments
 ```
 <br>
+
 ## 3) find
 ```shell
 
 ```
 <br>
+
 ## 4) lsof
 ```shell
 
 ```
 <br>
+
 ## 5) awk
 ```shell
 
 ```
 <br>
+
 ## 6) stty 화면조정
 ```shell
 

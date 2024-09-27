@@ -15,10 +15,7 @@ search: true
 use_math: true
 ---
 
-
-
-
-# Docker 명령어와 활용
+# Docker Note
 ## 1) install
 최신 docker 버전 설치
 ```shell
