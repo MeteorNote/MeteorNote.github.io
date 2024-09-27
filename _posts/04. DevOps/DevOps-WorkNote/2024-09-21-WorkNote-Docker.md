@@ -38,7 +38,7 @@ sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 sudo systemctl start docker
 
 ```
-
+<br>
 
 ## 2) docker-compose install
 docker-compose 버전 1.27.4 설치
@@ -52,14 +52,14 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo docker-compose -v
 
 ```
-
+<br>
 
 ## 3) 이미지 <--> tar
 ```shell
 sudo docker save -o [image_tag].tar image:tag
 sudo docker load -i [image_tag].tar
 ```
-
+<br>
 
 ## 4) docker root directory - daemon.json
 ```json
@@ -69,7 +69,7 @@ vim /etc/docker/daemon.json
 	"data-root": "/data/docker/docker"
 }
 ```
-
+<br>
 
 ## 5) docker root directory - daemon docker.service
 ```shell
@@ -79,14 +79,14 @@ sudo vim /usr/lib/systemd/system/docker.service
 # Find the line starting with ExecStart and update it:
 ExecStart=/usr/bin/dockerd --data-root /data/docker/docker
 ```
-
+<br>
 
 ## 6) docker 프로세스 종료
 ```shell
 docker stop [container]
 docker rm [container]
 ```
-
+<br>
 
 ## 7) docker-compose 파일 예시
 SVN 설치 시 예시

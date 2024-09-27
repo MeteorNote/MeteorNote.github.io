@@ -43,6 +43,7 @@ services:
     volumes:
       - "/data/svn/svn-[업무]/repositories:/var/opt/svn:rw"
 ```
+<br>
 
 ## 2) Backup
 위 Docker-compose 파일을 예시로 생성했을 때 백업 받을 directory는 /data/svn/svn-[업무]/repositories이다.

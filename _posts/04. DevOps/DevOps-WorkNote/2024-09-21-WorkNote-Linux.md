@@ -27,7 +27,7 @@ tar czvf [abc].tar abc
 
 ## 2) link
 ```shell
-ln -s /nas/path deployments
+ln -s /nas/path deploy
 ```
 <br>
 
