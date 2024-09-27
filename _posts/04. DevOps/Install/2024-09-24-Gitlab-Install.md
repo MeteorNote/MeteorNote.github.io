@@ -13,6 +13,8 @@ sidebar:
     nav: "counts"
 search: true
 use_math: true
+header:
+  image: assets/images/meteor.jpg
 ---
 # Gitlab install & backup
 ## 1) Gitlab install
