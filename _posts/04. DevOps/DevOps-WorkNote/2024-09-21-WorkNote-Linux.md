@@ -14,40 +14,49 @@ sidebar:
 search: true
 use_math: true
 ---
+# Linux Command Note
+<div class="notice--success">
+  실무에서 자주 사용하는 명령어 정리
+</div>
 
-
-#### 1) tar
+## 1) tar
 ```shell
 tar czvf [abc].tar abc
 ```
-
-#### 2) link
+<br>
+## 2) link
 ```shell
 ln -s /nas/path deployments
 ```
-
-#### 3) find
+<br>
+## 3) find
 ```shell
 
 ```
-
-#### 4) lsof
+<br>
+## 4) lsof
 ```shell
 
 ```
-
-#### 5) awk
+<br>
+## 5) awk
 ```shell
 
 ```
-
-#### 6) stty 화면조정
+<br>
+## 6) stty 화면조정
 ```shell
 
 ```
+<br>
 
+## 7) rsync
+```shell
 
-#### 7) rsync
+```
+<br>
+
+## 8) scp
 ```shell
 
 ```
