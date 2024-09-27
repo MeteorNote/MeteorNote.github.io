@@ -7,6 +7,10 @@ https://meteornote.github.io
 
 해당 blog에 사용된 유성(meteor)의 favicon, icon은 xnimrodx의 자료를 사용해 디자인되었습니다
 
+## font License
+<a style="font-size: 12px;" href="https://noonnu.cc/font_page/427" title="메이플스토리폰트">Font</a>
+<a style="font-size: 12px;" href="https://maplestory.nexon.com/Media/Font" title="메이플스토리폰트">Font License</a>
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
