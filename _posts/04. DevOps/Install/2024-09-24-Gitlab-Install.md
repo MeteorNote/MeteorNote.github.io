@@ -14,7 +14,7 @@ sidebar:
 search: true
 use_math: true
 header:
-  image: assets/images/meteor.jpg
+  image: assets/images/meteor.png
 ---
 # Gitlab install & backup
 ## 1) Gitlab install
