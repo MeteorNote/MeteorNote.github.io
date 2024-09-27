@@ -299,3 +299,10 @@ defaults:
       toc_icon: "fas fa-utensils"
 
 date_format: "%Y-%m-%d"
+
+
+# Enable excerpts (display description) on categories pages
+show_excerpts: true
+
+# Enable thumbnails on categories pages
+show_category_thumbnails: true
