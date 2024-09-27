@@ -16,7 +16,8 @@ $indent-var: 1.3em !default;
 $serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "nanumgothic", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$sans-head: -apple-system, BlinkMacSystemFont, "MaplestoryOTFBold" !default; /*header font*/
+$sans-head-narrow: -apple-system, BlinkMacSystemFont, "MaplestoryOTFBold" !default; /*메인 header font*/
+$sans-head: -apple-system, BlinkMacSystemFont, "MaplestoryOTFLight" !default; /* 본문 h라인 font*/
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 /* 본문 code 스타일 type 설정부분이지만 $monospace변수 제거 후 base.scss에 아래와 같이 적용
 tt,
@@ -31,7 +32,7 @@ pre {
 */
 
 /* sans serif typefaces */
-$sans-serif-narrow: $sans-head !default; /*header font*/
+$sans-serif-narrow: $sans-head-narrow !default; /*메인 header font*/
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
