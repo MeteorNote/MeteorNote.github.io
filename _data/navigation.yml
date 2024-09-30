@@ -3,12 +3,16 @@
 main:
   - title: "Category"
     url: /categories/
+    use: true
   - title: "Tag"
     url: /tags/
+    use: true
   - title: "By Year" # 연도별 구분
     url: /year-archive/ # grid 형식 적용 : /year-archive-grid/
+    use: true
   - title: "Search" # 검색
     url: /search/
+    use: true
 docs:
   - title: "대목차1"
     children:
