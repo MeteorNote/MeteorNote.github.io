@@ -35,7 +35,7 @@ nginx['client_max_body_size'] = '2G'
 
 ## 2) Gitlab Backup
 ### old gitlab 백업(저장소, db 등)
-- /var/opt/gitlab/backups 경로에 *_gitlab_backup.tar 형태의 파일로 생성된다.
+/var/opt/gitlab/backups 경로에 *_gitlab_backup.tar 형태의 파일로 생성된다.
 ```shell
 gitlab-backup create
 ```
