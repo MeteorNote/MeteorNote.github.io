@@ -16,4 +16,7 @@ use_math: true
 ---
 # Nexus install & backup
 ## 1) Install
+```shell
 
+
+```

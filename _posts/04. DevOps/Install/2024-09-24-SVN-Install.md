@@ -46,8 +46,8 @@ services:
 <br>
 
 ## 2) Backup
-위 Docker-compose 파일을 예시로 생성했을 때 백업 받을 directory는 /data/svn/svn-[업무]/repositories이다.
-예시) SVN을 7일 간 backup을 받도록 설정하는 방법
+위 Docker-compose 파일을 예시로 생성했을 때 백업 받을 directory는 /data/svn/svn-[업무]/repositories이다.<br>
+예시) SVN을 7일 간 backup을 받도록 설정
 ### svn-backup.sh
 ```shell
 

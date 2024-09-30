@@ -1,5 +1,5 @@
 ---
-title: Redis install & backup
+title: 단일 Redis install & backup
 layout: single
 categories: DevOps
 tags:
@@ -14,6 +14,19 @@ sidebar:
 search: true
 use_math: true
 ---
-# Redis install & backup
+# 단일 Redis install & backup
+<div class="notice--success">
+<h4> Redis 설치 방법 </h4>
+<ul>
+    <li> 장점 : </li>
+    <li> 단점 : </li>
+</ul>
+</div>
+
 ## 1) Install
 
+
+```shell
+
+
+```
