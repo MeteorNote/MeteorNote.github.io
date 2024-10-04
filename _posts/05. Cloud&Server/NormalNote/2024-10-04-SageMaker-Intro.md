@@ -1,5 +1,5 @@
 ---
-title: AWS SageMaker 1 : SageMaker 개요 및 ML 솔루션 동향
+title: AWS SageMaker 1 - SageMaker 개요 및 ML 솔루션 동향
 layout: single
 categories: Cloud&Server
 tags:
@@ -89,9 +89,9 @@ Processing jobs : 데이터를 분석하고 기계 학습 모델을 평가하는
 - PCA : 차원축소
 - Random Cut Forest : RF는 증분식 업데이트가 어렵지만 RCF는 증분식 업데이트가 가능하도록 설계된 알고리즘
 - IP Insights : IP 주소를 기반으로 비정상적인 동작과 사용 패턴을 탐지하는 비지도 학습 알고리즘
-### Training jobs : 모델, 하이퍼파라미터, 입력데이터, 출력데이터 등에 대한 설정을 할 수 있다.
+<h3> Training jobs : 모델, 하이퍼파라미터, 입력데이터, 출력데이터 등에 대한 설정을 할 수 있다.</h3>
 
-### Hyperparameter tuning jobs : 사용자가 선택한 알고리즘에 맞는 하이퍼파라미터에 대한 튜닝을 할 수 있다.
+<h3> Hyperparameter tuning jobs : 사용자가 선택한 알고리즘에 맞는 하이퍼파라미터에 대한 튜닝을 할 수 있다.</h3>
 
 ## 9) SageMaker dashboard - Inference
 - Compilation jobs, Marketplace model packages, Models, Endpoint configurations, Endpoints, Batch transform jobs, Shadow tests
