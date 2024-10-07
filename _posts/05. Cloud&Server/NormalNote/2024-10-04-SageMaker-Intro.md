@@ -102,10 +102,10 @@ Processing jobs : 데이터를 분석하고 기계 학습 모델을 평가하는
 - PCA : 차원축소
 - Random Cut Forest : RF는 증분식 업데이트가 어렵지만 RCF는 증분식 업데이트가 가능하도록 설계된 알고리즘
 - IP Insights : IP 주소를 기반으로 비정상적인 동작과 사용 패턴을 탐지하는 비지도 학습 알고리즘
-<h3> Training jobs : 모델, 하이퍼파라미터, 입력데이터, 출력데이터 등에 대한 설정을 할 수 있다.</h3>
-
-<h3> Hyperparameter tuning jobs : 사용자가 선택한 알고리즘에 맞는 하이퍼파라미터에 대한 튜닝을 할 수 있다.</h3>
-
+<h3> Training jobs </h3>
+- 모델, 하이퍼파라미터, 입력데이터, 출력데이터 등에 대한 설정을 할 수 있다.
+<h3> Hyperparameter tuning jobs </h3>
+- 사용자가 선택한 알고리즘에 맞는 하이퍼파라미터에 대한 튜닝을 할 수 있다.
 <br>
 
 ## 9) SageMaker dashboard - Inference
@@ -244,11 +244,13 @@ https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-
 https://www.oreilly.com/radar/ai-adoption-in-the-enterprise-2021/ https://www.oreilly.com/radar/ai-adoption-in-the-enterprise-2022/
 <br>
 <div class="notice--success">
-19% : 숙련된 사람이 부족하거나 필요한 역할을 고용하는 데 어려움
-18% : 데이터 부족 또는 데이터 품질 문제
-17% : 적절한 비즈니스 사용 사례 식별의 어려움
-14% : 기업 문화는 아직 AI의 필요성을 인식하고 있지 않음
+<ul>
+<li> 19% : 숙련된 사람이 부족하거나 필요한 역할을 고용하는 데 어려움 </li>
+<li> 18% : 데이터 부족 또는 데이터 품질 문제 </li>
+<li> 17% : 적절한 비즈니스 사용 사례 식별의 어려움 </li>
+<li> 14% : 기업 문화는 아직 AI의 필요성을 인식하고 있지 않음 </li>
 데이터사이언티스트는 MSA 쿠버네티스 환경에서 최적의 머신러닝 딥러닝 학습을 해야하는 상황에 직면해 연구와 프로덕션을 같이 진행할 수 밖에 없다.
+</ul>
 </div>
 <br>
 kubeflow와 같은 쿠버네티스 환경 머신러닝 파이프라인 솔루션이 존재하지만 데이터사이언티스트가 쿠버네티스 환경까지 이해해야하는 어려움이 아직 존재하고 지속적인 통합, 지속적인 배포, 지속적인 학습을 수행해야하는 DevOps와 AI에 대한 역량이 필요하기 때문이다.
