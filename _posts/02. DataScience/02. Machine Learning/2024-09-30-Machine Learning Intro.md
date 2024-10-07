@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Intro"
+title: "Machine Learning Tag Intro"
 layout: single
 categories: DataScience
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Statistics Category Intro"
+title: "Statistics Tag Intro"
 layout: single
 categories: DataScience
 tags:

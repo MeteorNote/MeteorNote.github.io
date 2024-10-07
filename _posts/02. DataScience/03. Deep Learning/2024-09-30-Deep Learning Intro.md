@@ -1,5 +1,5 @@
 ---
-title: "Deep Learning Category Intro"
+title: "Deep Learning Tag Intro"
 layout: single
 categories: DataScience
 tags:
