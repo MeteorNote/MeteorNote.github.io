@@ -84,3 +84,9 @@ JENKINS_ARGS=""
 }
 
 ```
+
+## 2) Backup
+### thinBackup
+
+
+### 단순 전체 백업
