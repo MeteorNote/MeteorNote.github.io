@@ -24,6 +24,7 @@ use_math: true
  
 
 - 클라우드 AI 개발자 서비스에 대한 Magic Quadrant  <br>
+
   클라우드 기반 AI 개발자 서비스에 관해 Gartner는 SageMaker에 대해 AWS의 AI 운영 및 생산 확장성이 뛰어나다고 평가했고 자연어 처리 분석을 담당하는 AWS Comprehend, 시계열 예측 서비스인 AWS Forecast, 챗봇 서비스인 AWS Lex, 이미지와 비디오에 대한 딥러닝을 담당하는 AWS Rekognition와 같은 AI 서비스와 함께 2022년 "Ability to Execute" 부문에서 1등을 한 모습을 확인할 수 있다.
 
  
