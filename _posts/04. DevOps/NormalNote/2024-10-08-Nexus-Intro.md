@@ -1,10 +1,10 @@
 ---
-title: 자주 활용되는 Nexus Note
+title: Nexus Intro
 layout: single
 categories: DevOps
 tags:
   - Nexus
-  - WorkNote
+  - Intro
 toc: true
 toc_sticky: true
 toc_label: 목차
@@ -14,6 +14,14 @@ sidebar:
 search: true
 use_math: true
 ---
-# Nexus Note
+# Nexus Intro
+## 1) Nexus 란?
 
-## Nexus 라이브러리 업로드
+
+
+## 2) Nexus 구조
+
+
+
+
+## 3) Nexus 라이브러리 업로드

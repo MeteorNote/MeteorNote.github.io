@@ -1,10 +1,10 @@
 ---
-title: 자주 활용되는 Nexus Note
+title: Docker Intro
 layout: single
 categories: DevOps
 tags:
-  - Nexus
-  - WorkNote
+  - Intro
+  - Docker
 toc: true
 toc_sticky: true
 toc_label: 목차
@@ -14,6 +14,5 @@ sidebar:
 search: true
 use_math: true
 ---
-# Nexus Note
 
-## Nexus 라이브러리 업로드
+# Docker Intro
