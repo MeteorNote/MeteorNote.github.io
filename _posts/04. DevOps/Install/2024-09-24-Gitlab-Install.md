@@ -17,6 +17,7 @@ use_math: true
 ---
 # Gitlab install & backup
 ## 1) Gitlab install
+### Install
 
 ```rb
 external_url 'http://[사용 IP : Port]'
@@ -33,7 +34,17 @@ nginx['client_max_body_size'] = '2G'
 ```
 <br>
 
+
+### Login
+
+
+
+### Project 생성 및 Commit
+테스트용 Project와 파일을 Commit한다.
+
+
 ## 2) Gitlab Backup
+Gitlab은 동일한 Gitlab 버전으로 백업 및 이관되어야 한다.
 <h3> old gitlab 백업(저장소, db 등) </h3>
 /var/opt/gitlab/backups 경로에 *_gitlab_backup.tar 형태의 파일로 생성된다.
 ```shell
