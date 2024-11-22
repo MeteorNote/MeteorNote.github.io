@@ -5,6 +5,7 @@ categories: DevOps
 tags:
   - Jenkins
   - Kubernetes
+  - Research
 toc: true
 toc_sticky: true
 toc_label: 목차
@@ -28,11 +29,9 @@ use_math: true
 <h3> S3 </h3>
 빌드 설정 파일과 유저 데이터가 관리되므로 s3 browser로 전체 이관해야한다.
 
-<br>
 <h3> Container Registry </h3>
 Private Docker image 저장소로 활용되기 때문에 최소 기본 base image 관련 데이터를 같이 이관 시키는 것이 좋다.
 
-<br>
 <h3> Jenkins </h3>
 <div class="notice--info">
 <h3> Jenkins 이관 시 체크해야하는 파일</h3>
@@ -43,18 +42,28 @@ Private Docker image 저장소로 활용되기 때문에 최소 기본 base imag
     <li> /etc/passwd => 홈디렉토리 변경 </li>
 </ul>
 </div>
-<br>
 
 Jenkins는 이관 시 동일한 버전으로 이관해야 Plugin dependency 영향도가 없어지며 jenkins_home 디렉토리 자체를 데이터를 이관 시키는 것이 좋다. Jenkins 서버 내에는 Docker를 설치해야하며 Docker 설치 후 Docker 그룹 내 Jenkins 사용자를 포함시켜야 한다. <br>
 Jenkins 내부에 설정되어 있는 S3 및 Docker 인증 Credential ID, Kubernetes URL을 변경해줘야 한다. <br>
 Pipeline 내 S3, Gitlab, Kubernetes DNS, Container Registry DNS, Credential과 같은 변경 내역은 모두 확인해줘야 한다.
-<br>
+
 <h3> Gitlab </h3>
 Gitlab Backup 방식으로 데이터 이관을 해야하고 AS-IS 서버 TO-BE 서버 간 gitlab 버전 차이가 동일해야한다.
 
-<br>
 <h3> Kubernetes </h3>
 kubectl 서버와의 인증 초기화, IAM 권한, kubectl 설치 등 기본적인 환경설정이 우선적으로 진행되어야 한다. <br>
 Container Registry가 변경되기 때문에 k8s에서 Docker image pull을 하기 위한 신규 regcred 생성을 해줘야 한다.
 
 
+
+## 3) 이관 전 정리해야할 문서
+<div class="notice--info">
+<h3> Check List </h3>
+<ul>
+    <li> As-is Jenkins Pipeline </li>
+    <li> Dockerfile </li>
+    <li> kubernetes yaml 파일 </li>
+    <li> 각 namespace의 Pod, Service, Secret 등 </li>
+    <li> Jenkins workspace, 배포파일 일치여부 </li>
+</ul>
+</div>
