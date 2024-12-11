@@ -3,13 +3,30 @@ layout: archive
 ---
 
 {{ content }}
-
+<!--
 <h2 class="archive__subtitle" style="color: #E2495B">Introduction</h2>
-<h3 style="font-size: 20px"> &#9989; Tech </h2>
+<h3 style="font-size: 20px"> &#9989; Tech </h3>
+<div class="notice--info">
+<h3 style="font-size: 20px"> 기술스택 </h3>
 <p style="font-size: 16px"> &#8231; Middleware : Apache, Wildfly, Redis <br>
   &#8231; Containeriztion/Orchestration : k8s, Docker <br>
   &#8231; CI/CD : Jenkins, Gitlab, Github, SVN, Nexus <br>
   &#8231; Cloud Platform : AWS, NCP </p>
+</div>
+-->
+<h2 class="archive__subtitle" style="color: #E2495B">Introduction</h2>
+<h3 style="font-size: 17px"> &#9989; Tech </h3>
+<div class="notice--info">
+<h3 style="font-size: 17px"> DevOps Tech Stack </h3>
+  <ul style="font-size: 14px">
+      <li> Middleware : Apache, Wildfly, Redis </li>
+      <li> Containeriztion/Orchestration : k8s, Docker </li>
+      <li> CI/CD : Jenkins, Gitlab, Github, SVN, Nexus </li>
+      <li> Cloud Platform : AWS, NCP </li>
+  </ul>
+</div>
+
+
 <h3 style="font-size: 20px"> &#9989; Certificate </h3>
 <img src="/images/home/aws-certified-solutions-architect-associate.png" width="77" height="77">
 <img src="/images/home/aws-certified-solutions-architect-professional.png" width="77" height="77">
@@ -17,7 +34,13 @@ layout: archive
 <img src="/images/home/cka-certified-kubernetes-administrator.png" width="77" height="77">
 <img src="/images/home/ckad-certified-kubernetes-application-developer.png" width="77" height="77">
 <img src="/images/home/NCP.png" width="77" height="77">
-<p style="font-size: 16px"> &#8231; 정보처리기사, 리눅스마스터2급, 네트워크관리사2급, ADsP, SQLD </p>
+<div class="notice--success">
+<h3 style="font-size: 17px"> 국내 자격증 </h3>
+<!-- <p style="font-size: 16px"> &#8231; 정보처리기사, 리눅스마스터2급, 네트워크관리사2급, ADsP, SQLD </p> -->
+<ul style="font-size: 14px">
+  <li> 정보처리기사, 리눅스마스터2급, 네트워크관리사2급, ADsP, SQLD </li>
+</ul>
+</div>
 
 <br>
 <h2 class="archive__subtitle" style="color: #E2495B">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
