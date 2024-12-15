@@ -1,0 +1,56 @@
+# main links 
+# _pages에서 설정 후 등록
+main:
+  - title: "Category"
+    url: /categories/
+  - title: "Tag"
+    url: /tags/
+  - title: "By Year" # 연도별 구분
+    url: /year-archive/ # grid 형식 적용 : /year-archive-grid/
+  - title: "Search" # 검색
+    url: /search/
+docs:
+  - title: "대목차1"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+  - title: "대목차2"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+counts:
+  - title: "카테고리"
+    use: true
+#  - title: "태그"
+#    use: true
+
+
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+
+#  counts:
+#  - title: "머신러닝"
+#    children:
+#      - title: "개념test"
+#        url: /machine_learning_theory/
+#      - title: "활용"
+#        url: /machine_learning_use/
+#  - title: "딥러닝"
+#    children:
+#      - title: "개념"
+#        url: /deep_learning_theory/
+#      - title: "활용"
+#        url: /deep_learning_use/

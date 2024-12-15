@@ -1,0 +1,134 @@
+---
+layout: archive
+---
+
+{{ content }}
+<!--
+<h2 class="archive__subtitle" style="color: #E2495B">Introduction</h2>
+<h3 style="font-size: 20px"> &#9989; Tech </h3>
+<div class="notice--info">
+<h3 style="font-size: 20px"> 기술스택 </h3>
+<p style="font-size: 16px"> &#8231; Middleware : Apache, Wildfly, Redis <br>
+  &#8231; Containeriztion/Orchestration : k8s, Docker <br>
+  &#8231; CI/CD : Jenkins, Gitlab, Github, SVN, Nexus <br>
+  &#8231; Cloud Platform : AWS, NCP </p>
+</div>
+-->
+<h2 class="archive__subtitle" style="color: #E2495B">Introduction</h2>
+<div class="notice" style="font-family: 'Roboto', sans-serif;">
+  <h3 style="font-size: 17px"> About Me </h3>
+  DevOps Engineer로서 시스템 자동화, CI/CD 파이프라인 구축, 클라우드 환경 관리를 담당하고 있습니다.
+  효율적이고 안정적인 소프트웨어 배포를 위해 다양한 도구와 기술을 사용하며 개발과 운영 간의 협업을 개선하는 데 집중하고 있습니다.
+  DevOps는 개발과 인프라의 기술 변화에 발맞춰 트렌드에 항상 적응해야 하는 만큼 지속적인 학습과 기술 개선이 중요합니다. 때문에 새로운 도구와 기술을 적극적으로 배우며 변화하는 환경에 유연하게 대응하고 있습니다.
+  <br><br>
+  해당 블로그는 Introduction을 포함해 개인공부와 자기개발 및 Research 목적으로 작성되고 있습니다.
+</div>
+
+<h3 style="font-size: 20px"> &#9989; Skills </h3>
+<h3 style="font-size: 17px"> DevOps Tech Stack </h3>
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <!-- 차트 영역 -->
+  <canvas id="skillsChart"></canvas>
+
+  <!-- 설명 영역 -->
+  <div style="max-width: 300px; font-family: 'Roboto', sans-serif; font-size: 12px; line-height: 1.6; background-color: #f4f4f4; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+    <h3 style="margin-bottom: 10px; font-size: 16px; color: #333; border-bottom: 2px solid #36A2EB; padding-bottom: 10px;">Skills self-assessment</h3>
+    <p><strong>Apache/Wildfly:</strong> Expertise in managing Java application servers.</p>
+    <p><strong>Jenkins:</strong> Proficient in CI/CD pipeline setup and integration.</p>
+    <p><strong>Docker:</strong> Skilled in containerization and image management.</p>
+    <p><strong>Kubernetes:</strong> Hands-on experience in orchestration of containers.</p>
+    <p><strong>Redis:</strong> Familiar with in-memory database and caching solutions.</p>
+    <p><strong>Source Code Management:</strong> Experienced with SVN and Git-based platforms.</p>
+    <p><strong>NCP:</strong> Knowledge of Naver Cloud Platform services and solutions.</p>
+    <p><strong>Nexus:</strong> Proficient in repository management for build artifacts.</p>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const canvas = document.getElementById('skillsChart');
+  const ctx = canvas.getContext('2d');
+
+  // 캔버스 크기 설정
+  canvas.width = 1200; // 내부 드로잉 크기
+  canvas.height = 900; // 내부 드로잉 크기
+  canvas.style.width = '600px'; // 렌더링 크기
+  canvas.style.height = '400px'; // 렌더링 크기
+
+  const skillsChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+      labels: ['Apache/Wildfly', 'Jenkins', 'Docker', 'Kubernetes', 'Redis', 'Source Code Management Manage', 'NCP', 'Nexus'],
+      datasets: [{
+        label: 'Skill Proficiency',
+        data: [85, 80, 60, 70, 75, 55, 70, 60],
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: '#36A2EB',
+        pointBackgroundColor: '#FF6384',
+      }]
+    },
+    options: {
+      responsive: false, // 반응형 비활성화
+      maintainAspectRatio: false, // 비율 유지 활성화
+      layout: {
+        padding: {
+          top: 30, // 상단 패딩
+          bottom: 30, // 하단 패딩
+          left: 30, // 좌측 패딩
+          right: 30, // 우측 패딩
+        }
+      },
+      scales: {
+        r: {
+          min: 0,
+          max: 100,
+          ticks: {
+            beginAtZero: true // 0부터 시작
+          },
+          pointLabels: {
+            font: {
+              size: 18, // 글자 크기 증가
+              family: 'Arial', // (선택 사항) 글꼴 설정
+            },
+            color: '#000000' // 글자 색상
+          }
+        }
+      }
+    }
+  });
+</script>
+
+
+<h3 style="font-size: 20px"> &#9989; Certificate </h3>
+<img src="/images/home/aws-certified-solutions-architect-associate.png" width="77" height="77">
+<img src="/images/home/aws-certified-solutions-architect-professional.png" width="77" height="77">
+<img src="/images/home/aws-certified-data-analytics-specialty.png" width="77" height="77">
+<img src="/images/home/cka-certified-kubernetes-administrator.png" width="77" height="77">
+<img src="/images/home/ckad-certified-kubernetes-application-developer.png" width="77" height="77">
+<img src="/images/home/NCP.png" width="77" height="77">
+<div class="notice--success">
+<h3 style="font-size: 17px"> 국내 자격증 </h3>
+<!-- <p style="font-size: 16px"> &#8231; 정보처리기사, 리눅스마스터2급, 네트워크관리사2급, ADsP, SQLD </p> -->
+<ul style="font-size: 14px">
+  <li> 정보처리기사, 리눅스마스터2급, 네트워크관리사2급, ADsP, SQLD </li>
+</ul>
+</div>
+
+<br>
+<h2 class="archive__subtitle" style="color: #E2495B">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
