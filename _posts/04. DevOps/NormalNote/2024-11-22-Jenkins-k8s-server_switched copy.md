@@ -22,8 +22,8 @@ use_math: true
 - S3 : 빌드 설정 파일 및 유저 데이터를 저장
 - Container Registry : private docker 저장소로 사용
 - Jenkins : 쿠버네티스 deployment 배포를 위한 CI/CD
-- Gitlab
-- Kubernetes
+- Gitlab : 개발자 버전 관리 및 소스코드 저장
+- Kubernetes : Micro-service Architecture 환경
 
 ## 2) 각 자원 영향도 파악
 <h3> S3 </h3>
