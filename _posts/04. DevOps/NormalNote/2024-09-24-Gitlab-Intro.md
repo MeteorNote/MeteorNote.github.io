@@ -1,5 +1,5 @@
 ---
-title: Gitlab install & backup
+title: Gitlab intro
 layout: single
 categories: DevOps
 tags:
@@ -15,6 +15,9 @@ search: true
 use_math: true
 
 ---
+# Gitlab Intro
+## 1) Gitlab 이란?
+
 # Gitlab install & backup
 ## 1) Gitlab install
 ### Install
