@@ -130,29 +130,26 @@ error: You must be logged in to the server (the server has asked for the client 
 2) kubectl이 잘못된 컨텍스트를 사용하고 있는 경우 <br>
 3) Kubernetes API 서버에 접근하려는 사용자가 올바른 권한을 가지고 있지 않은 경우
 </div>
-<br>
 <div class="notice--danger">
 <h3> Error 2 </h3>
 "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": dial tcp 127.0.0.1:8080: connect: connection refused"
 The connection to the server localhost:8080 was refused - did you specify the right host or port?
 </div>
 <div class="notice--success">
-
+1) kubectl config파일에 오타발생 혹은 잘못된 정보기입
 </div>
-<br>
 <div class="notice--danger">
 <h3> Error 3 </h3>
 error: You must be logged in to the server (Unauthorized)
 </div>
 <div class="notice--success">
-
+1) ncp-auth가 없거나 해당 유저에 대한 권한이 없을때
+2) 해당 유저의 ncloud API 키 오타일 때
 </div>
-<br>
 <div class="notice--danger">
 <h3> Error 4 </h3>
 Error from server (Forbidden) : pods is forbidden: User "aaa" cannot list resource "pods" in API group "" in the namespace "defualt"
 </div>
 <div class="notice--success">
-
+1) 해당 유저의 role, clusterrole 권한이 없을때
 </div>
-<br>
