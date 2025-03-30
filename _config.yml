@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "LeeKD IT Tech Blog"
+title                    : "LeeGD IT Tech Blog"
 title_separator          : "-"
 subtitle                 : "" # site tagline that appears below site title in masthead
 name                     : "MeteorNote"
-description              : "Lee KyuDon의 IT Tech Blog입니다."
+description              : "Lee GyuDon의 IT Tech Blog입니다."
 url                      : "https://MeteorNote.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "LeeKD / MeteorNote"
+  name             : "LeeGD / MeteorNote"
   avatar           : "/images/cmd.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "LeeKD IT Tech Blog<br> Lee Kyudon, 1996 <br><br> Record <br> &#8231; DevOps, Server, Data science, Algorithm, Dev <br><br> Career <br> &#8231; DevOps Engineer (2022 ~ )"
+  bio              : "LeeGD IT Tech Blog<br> Lee Gyudon, 1996 <br><br> Record <br> &#8231; DevOps, Server, Data science, Algorithm, Dev <br><br> Career <br> &#8231; DevOps Engineer (2022 ~ )"
   location         : "Seoul, South Korea"
   email            :
   links:
