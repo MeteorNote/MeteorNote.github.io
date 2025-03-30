@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "LeeGD / MeteorNote"
   avatar           : "/images/cmd.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "LeeGD IT Tech Blog<br> Lee Gyudon, 1996 <br><br> Record <br> &#8231; DevOps, Server, Data science, Algorithm, Dev <br><br> Career <br> &#8231; DevOps Engineer (2022 ~ )"
+  bio              : "LeeGD IT Tech Blog<br> Lee Gyudon, 1996 <br><br> Blog Record <br> &#8231; DevOps, Server, Data science, Algorithm, Dev <br><br> Career <br> &#8231; DevOps Engineer (2022 ~ )"
   location         : "Seoul, South Korea"
   email            :
   links:
