@@ -27,7 +27,7 @@ external_url 'http://[사용 IP : Port]'
 
 git_data_dirs({
 	"defualt" => {
-		"path" => "/data/gitlab/git-data"
+		"path" => "/gitlab/git-data"
 	}
 })
 
