@@ -110,13 +110,13 @@ services:
     image: svn:latest
     container_name: svn
     ports:
-      - "3356:3690"
+      - "8080:3690"
     environment:
       SET_PERMS: "false"
       TZ: "Asia/Seoul"
       mem_limit: 2G
     volumes:
-      - "/data/svn/svn-[업무]/repositories:/var/opt/svn:rw"
+      - "/svn/svn-[업무]/repositories:/var/opt/svn:rw"
 ```
 <br>
 
