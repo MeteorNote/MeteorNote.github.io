@@ -91,8 +91,8 @@ SuccessExitStatus=143
 User=jenkins
 Group=jenkins
 
-Environment="JENKINS_HOME=/data/jenkins"
-WorkingDirectory=/data/jenkins
+Environment="JENKINS_HOME=/app/jenkins"
+WorkingDirectory=/app/jenkins
 Environment="JENKINS_WEBROOT=%C/jenkins/war"
 Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.12.0.7-0.el7_9.x86_64"
 Environment="JAVA_OPTS=-Djava.awt.headless=true"
@@ -104,7 +104,7 @@ WantedBy=multi-user.target
 
 <h3> /etc/sysconfig/jenkins </h3>
 ```shell
-JENKINS_HOME="/data/jenkins"
+JENKINS_HOME="/app/jenkins"
 JENKINS_JAVA_CMD=""
 JENKINS_USER="jenkins"
 JENKINS_JAVA_OPTIONS="-Djava.awt.headless=true"
